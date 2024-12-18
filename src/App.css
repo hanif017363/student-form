@@ -1,0 +1,77 @@
+#root {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.all-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.student-list {
+  text-align: center;
+  background-color: inherit;
+  min-height: 316px;
+  min-width: 500px;
+}
+.list {
+  border: 2px black solid;
+  margin: 2rem 0;
+}
+ul {
+  list-style: none;
+  padding: 1rem;
+
+  border-radius: 1rem;
+  margin: 1rem;
+  background-color: black;
+}
+h2 {
+  font-size: 2rem;
+  border: 2px white solid;
+  text-align: center;
+  margin-top: 0;
+  padding: 1rem;
+  text-decoration: underline;
+  text-transform: capitalize;
+  text-underline-offset: 0.6rem;
+  display: block;
+}
+
+.init-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  padding: 1rem;
+}
+form {
+  text-align: center;
+}
+.second-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  align-items: center;
+}
+.button {
+  display: flex;
+  gap: 1rem;
+  margin-right: 1rem;
+}
+
+.change-ul {
+  display: flex;
+  flex-direction: column;
+  height: 316px;
+  max-height: 316px;
+  overflow-y: auto;
+  min-width: 450px;
+}
+input {
+  padding: 0.3rem 1rem;
+  border-radius: 0.5rem;
+  width: 50%;
+  font-size: 1.8rem;
+}
